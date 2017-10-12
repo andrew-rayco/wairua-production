@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-const PORT = 3000
+const PORT = 80
 
 app.listen(process.env.PORT || PORT, () => {
   console.log('Wairua running on ' + PORT)
